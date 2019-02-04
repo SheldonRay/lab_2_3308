@@ -1,0 +1,12 @@
+#!/bin/bash
+# Authors : Sheldon Ray
+# Date: 1/30/2019
+
+#Problem 1 Code:
+#Make sure to document how you are solving each problem!
+echo "Please enter a regular expression along with a text file name"
+read regularEx
+read fileName
+grep -n $regularEx $fileName * < command_results.txt
+grep -n '@geocities.com' $fileName * < email_results.txt
+grep -n '303-' $filename * < phone_results.txt
